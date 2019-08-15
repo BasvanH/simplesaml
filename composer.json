@@ -1,0 +1,19 @@
+{
+    "name": "basvanh/simplesaml",
+    "description": "This package provides a wrapper to onelogin/php-saml library.",
+    "keywords": ["laravel", "saml2", "okta", "single sign-on", "sso"],
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "authors": [{
+        "name": "Bastiaan van Haastrecht",
+        "email": "b.vanhaastrecht@gmail.com"
+    }],
+    "require": {
+        "onelogin/php-saml": "~3.*.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "BasvanH\\SimpleSaml\\": "src/"
+        }
+    }
+}
